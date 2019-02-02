@@ -25,7 +25,7 @@ rosrun udacity-pcl-tut udacity-pcl-tut_exec
 ```
 to run the executable.
 
-To visualize it, in another terminal run ```rviz``` and as a configuration file choose udacity_ws/src/udacity-pcl-tut/rviz_stuff/udacity.rviz
+To visualize it, in another terminal run ```rviz``` and as a configuration file choose ```udacity_ws/src/udacity-pcl-tut/rviz_stuff/udacity.rviz```
 
 
 ## Dataset

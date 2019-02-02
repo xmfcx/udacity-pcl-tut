@@ -19,7 +19,6 @@ Cloud::Ptr PclStuff::Downsample(const Cloud::ConstPtr &cloud_in,
 Cloud::Ptr
 PclStuff::GroundRemover(Cloud::ConstPtr cloud_in, float treshold) {
   Cloud::Ptr cloud_groundless(new Cloud);
-
   pcl::SACSegmentation<Point> seg;
   pcl::PointIndices::Ptr inliers(new pcl::PointIndices);
   pcl::ModelCoefficients::Ptr coefficients(new pcl::ModelCoefficients);
